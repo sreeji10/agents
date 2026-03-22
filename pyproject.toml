@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "deepagents>=0.4.12",
+    "langchain-nvidia-ai-endpoints>=1.2.1",
+    "langchain-openai>=0.3.35",
+    "langchain[openai]>=1.2.13",
+    "langgraph>=0.6.0",
     "pydantic-ai>=1.70.0",
     "python-dotenv>=1.2.2",
+    "streamlit>=1.49.0",
 ]
